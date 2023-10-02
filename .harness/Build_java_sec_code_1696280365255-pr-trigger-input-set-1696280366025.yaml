@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_java_sec_code_1696280365255-pr-trigger-input-set
+  identifier: Build_java_sec_code_1696280365255prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: HARjavasec
+  pipeline:
+    identifier: Build_java_sec_code_1696280365255
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
